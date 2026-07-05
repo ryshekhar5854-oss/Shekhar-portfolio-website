@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHEKHAR Portfolio </title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shekhar Rai | Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="style.css" href="style1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shekhar — Portfolio</title>
+  <meta name="description" content="Senior Frontend Developer, UI/UX and Creative Web Designer portfolio. Modern dark theme with premium UI, projects, experience and contact." />
+  <meta name="keywords" content="Frontend, UI/UX, Web Designer, Portfolio, JavaScript, React, Tailwind, Figma" />
+  <meta name="theme-color" content="#0e1a26" />
+  <link rel="preload" href="assets/fonts/Inter-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Sora-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loader" aria-hidden="true">
+    <div class="spinner"></div>
+    <p class="loader-copy">Loading your experience...</p>
+  </div>
+
+  <!-- Scroll progress -->
+  <div id="scrollbar" role="progressbar" aria-label="Scroll progress"></div>
+
+  <!-- Custom cursor -->
+  <div id="cursor"></div>
+
+  <!-- Particles background -->
+  <canvas id="particles" aria-hidden="true"></canvas>
+
+  <!-- Header / Navbar -->
+  <header class="header" id="top" role="banner">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Home">
+        <img src="hero-character.jpg" alt="" width="28" height="28" />
+        <span>PORTFOLIO<span class="dot">.</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <button id="navToggle" class="icon-btn" aria-expanded="false" aria-controls="navMenu">
+          <img src="edu-character.jpg" alt="" width="22" height="22" />
+        </button>
+
+        <ul id="navMenu" class="nav-menu">
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+           <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link btn-ghost">Contact Me</a></li>
+          <li>
+            <button id="themeToggle" class="icon-btn" aria-label="Toggle theme">
+              <img src="assets/icons/moon.svg" alt="" width="20" height="20" class="icon-moon">
+              <img src="assets/icons/sun.svg" alt="" width="20" height="20" class="icon-sun">
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- Hero -->
+    <section id="hero" class="section hero">
+      <div class="container grid-2">
+        <div class="hero-text" data-aos="fade-up">
+          <h1 class="title">Hi, I'm <span class="accent">Shekhar </span>SR <span class="wave" aria-hidden="true">👋</span></h1>
+          <p class="subtitle">
+            <span class="typed" aria-live="polite"></span>
+          </p>
+          <p class="lead"> Frontend Developer, video editor, and Creative Web Designer crafting delightful, accessible web experiences.</p>
+
+          <div class="actions">
+            <a href="assets/SCV.pdf" class="btn btn-primary ripple" download>Download CV</a>
+            <a href="#contact" class="btn btn-outline ripple">Hire Me</a>
+          </div>
+
+          <ul class="socials" aria-label="Social links">
+            <li><a class="social" href="https://github.com/ryshekhar5854-oss" target="_blank" rel="noreferrer"><img src="github.png" alt="GitHub" width="20" height="20" /></a></li>
+            <li><a class="social" href="https://www.linkedin.com/in/shekhar-s-r-91a82533b" target="_blank" rel="noreferrer"><img src="linkedin.png" alt="LinkedIn" width="20" height="20" /></a></li>
+            <li><a class="social" href="https://www.facebook.com/shekhar.ray.75457/" target="_blank" rel="noreferrer"><img src="facebook.png" alt="Facebook" width="20" height="20" /></a></li>
+          </ul>
+             
+          
+        </div>
+
+       <div class="hero-image">
+    <div class="circle-bg"></div>
+
+    <div class="profile">
+        <img src="cv photo.jpeg" alt="Profile">
+    </div>
+</div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container grid-2">
+        <div class="about-media" data-aos="zoom-in">
+          <div class="oval">
+            <img src="hero-character.jpg" alt="About photo" width="520" height="520" loading="lazy" />
+          </div>
+        </div>
+        <div class="about-text" data-aos="fade-left">
+          <h2>More <span class="accent">About</span> Me</h2>
+          <p>Currently, I'm learning Frontend Development from Apna College and
+developing projects like Portfolio Website, Amazon Clone, Food Delivery,
+Hospital Management System, and Currency Converter. My goal is to become
+a skilled Full Stack Developer , software developer and data science or Analytics </p>
+          <ul class="badges">
+            <li class="badge">25+ Clients</li>
+            <li class="badge">25+ Projects</li>
+            <li class="badge">+ 6 months</li>
+          </ul>
+          <div class="stats">
+            <div class="stat">
+              <span class="count" data-count="25">0</span>
+              <span class="label">Clients</span>
+            </div>
+            <div class="stat">
+              <span class="count" data-count="25">0</span>
+              <span class="label">Projects</span>
+            </div>
+            <div class="stat">
+              <span class="count" data-count="1">0</span>
+              <span class="label">Years</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="section-title">Technical <span class="accent">Skills</span></h2>
+
+        <div class="grid-2">
+          <div class="skill-bars" data-aos="fade-up">
+            <div class="bar"><span>HTML & CSS</span><span class="val">85%</span><i style="--w:95%"></i></div>
+            <div class="bar"><span>javascript</span><span class="val">70%</span><i style="--w:90%"></i></div>
+            <div class="bar"><span>c programming or C++ programming</span><span class="val">80%</span><i style="--w:98%"></i></div>
+            <div class="bar"><span>Problem Solving</span><span class="val">91%</span><i style="--w:91%"></i></div>
+          </div>
+
+       <div class="circles" data-aos="fade-left">
+
+    <div class="circle" data-progress="92">
+        <svg viewBox="0 0 120 120">
+            <circle class="bg" cx="60" cy="60" r="52"></circle>
+            <circle class="fg" cx="60" cy="60" r="52"></circle>
+        </svg>
+        <div class="percent">92%</div>
+        <span>Communication</span>
+    </div>
+
+    <div class="circle" data-progress="88">
+        <svg viewBox="0 0 120 120">
+            <circle class="bg" cx="60" cy="60" r="52"></circle>
+            <circle class="fg" cx="60" cy="60" r="52"></circle>
+        </svg>
+        <div class="percent">88%</div>
+        <span>Problem Solving</span>
+    </div>
+
+    <div class="circle" data-progress="90">
+        <svg viewBox="0 0 120 120">
+            <circle class="bg" cx="60" cy="60" r="52"></circle>
+        <circle class="fg" cx="60" cy="60" r="52"></circle>
+        </svg>
+        <div class="percent">90%</div>
+        <span>Collaboration</span>
+    </div>
+
+</div>
+        </div>
+      </div>
+
+          
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section services">
+      <div class="container">
+        <h2 class="section-title">What I <span class="accent">Do</span></h2>
+        <div class="cards">
+          <article class="card" data-aos="zoom-in">
+            <h3>Frontend developer</h3>
+            <p>Semantic, accessible, and performant interfaces with modern tooling and patterns.</p>
+          </article>
+          <article class="card" data-aos="zoom-in" data-aos-delay="100">
+            <h3>UI/UX Design</h3>
+            <p>Research, wireframes, and high-fidelity design systems that scale.</p>
+          </article>
+          <article class="card" data-aos="zoom-in" data-aos-delay="200">
+            <h3>Creative Web Design</h3>
+            <p>Micro-interactions, animations, and brand-led visuals that delight.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+<!-- Projects Section -->
+<section id="projects" class="section projects">
+  <div class="container">
+    <h2 class="section-title">Projects<span class="accent">.</span></h2>
+
+    <div class="filters" role="tablist" aria-label="Project filters">
+      <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+      <button class="filter" data-filter="web" role="tab">Web</button>
+      <button class="filter" data-filter="app" role="tab">App</button>
+      <button class="filter" data-filter="ui" role="tab">UI</button>
+    </div>
+
+    <div class="grid-3 gallery">
+
+      <!-- Project 1 -->
+      <figure class="item" data-cat="web" data-aos="fade-up">
+        <img src="assets/images/amazon-clone.webp" alt="Amazon Clone" width="640" height="420" loading="lazy" />
+        <figcaption>
+          <h3>Amazon Clone</h3>
+          <p>Responsive Amazon homepage clone using HTML, CSS & JavaScript.</p>
+          <div class="actions">
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/external.svg" alt="" />Live
+            </a>
+            <button class="btn-mini open-modal" data-project="Amazon Clone">Details</button>
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/github.svg" alt="" />GitHub
+            </a>
+          </div>
+        </figcaption>
+      </figure>
+
+      <!-- Project 2 -->
+      <figure class="item" data-cat="web" data-aos="fade-up" data-aos-delay="50">
+        <img src="assets/images/currency-converter.webp" alt="Currency Converter" width="640" height="420" loading="lazy" />
+        <figcaption>
+          <h3>Currency Converter</h3>
+          <p>Live currency exchange converter using exchange rate API.</p>
+          <div class="actions">
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/external.svg" alt="" />Live
+            </a>
+            <button class="btn-mini open-modal" data-project="Currency Converter">Details</button>
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/github.svg" alt="" />GitHub
+            </a>
+          </div>
+        </figcaption>
+      </figure>
+
+      <!-- Project 3 -->
+      <figure class="item" data-cat="app" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/images/todo-list.webp" alt="To Do List" width="640" height="420" loading="lazy" />
+        <figcaption>
+          <h3>To Do List</h3>
+          <p>Task management app with local storage support.</p>
+          <div class="actions">
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/external.svg" alt="" />Live
+            </a>
+            <button class="btn-mini open-modal" data-project="To Do List">Details</button>
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/github.svg" alt="" />GitHub
+            </a>
+          </div>
+        </figcaption>
+      </figure>
+
+      <!-- Project 4 -->
+      <figure class="item" data-cat="web" data-aos="fade-up">
+        <img src="assets/images/student-management-system.webp" alt="Student Management System" width="640" height="420" loading="lazy" />
+        <figcaption>
+          <h3>Student Management System</h3>
+          <p>Student management system with CRUD functionality.</p>
+          <div class="actions">
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/external.svg" alt="" />Live
+            </a>
+            <button class="btn-mini open-modal" data-project="Student Management System">Details</button>
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/github.svg" alt="" />GitHub
+            </a>
+          </div>
+        </figcaption>
+      </figure>
+
+      <!-- Project 5 -->
+      <figure class="item" data-cat="ui" data-aos="fade-up" data-aos-delay="50">
+        <img src="assets/images/personal-portfolio.webp" alt="Personal Portfolio" width="640" height="420" loading="lazy" />
+        <figcaption>
+          <h3>Personal Portfolio</h3>
+          <p>Modern responsive portfolio website with animations.</p>
+          <div class="actions">
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/external.svg" alt="" />Live
+            </a>
+            <button class="btn-mini open-modal" data-project="Personal Portfolio">Details</button>
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/github.svg" alt="" />GitHub
+            </a>
+          </div>
+        </figcaption>
+      </figure>
+
+      <!-- Project 6 -->
+      <figure class="item" data-cat="web" data-aos="fade-up" data-aos-delay="100">
+        <img src="assets/images/cafe-restaurant.webp" alt="Cafe Restaurant Website" width="640" height="420" loading="lazy" />
+        <figcaption>
+          <h3>Cafe Restaurant Website</h3>
+          <p>Responsive restaurant website with menu and reservation pages.</p>
+          <div class="actions">
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/external.svg" alt="" />Live
+            </a>
+            <button class="btn-mini open-modal" data-project="Cafe Restaurant Website">Details</button>
+            <a class="btn-mini" href="#" target="_blank" rel="noreferrer">
+              <img src="assets/icons/github.svg" alt="" />GitHub
+            </a>
+          </div>
+        </figcaption>
+      </figure>
+
+    </div>
+  </div>
+</section>
+
+  
+
+
+
+
+
+
+
+
+
+<!-- 
+    <!-- <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Projects<span class="accent">.</span></h2>
+
+        <div class="filters" role="tablist" aria-label="Project filters">
+          <button class="filter active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="filter" data-filter="web" role="tab">Web</button>
+          <button class="filter" data-filter="mobile" role="tab">Mobile</button>
+          <button class="filter" data-filter="ui" role="tab">UI</button>
+        </div>
+
+        <div class="grid-3 gallery">
+          <figure class="item" data-cat="web" data-aos="fade-up">
+            <img src="assets/images/proj-1.webp" alt="E-commerce platform" width="640" height="420" loading="lazy" />
+            <figcaption>
+              <h3>E‑Commerce Platform</h3>
+              <p>Modern e‑commerce solution</p>
+              <div class="actions">
+                <a class="btn-mini" href="#" target="_blank" rel="noreferrer"><img src="assets/icons/external.svg" alt="" />Live</a>
+                <button class="btn-mini open-modal" data-project="E‑Commerce Platform">Details</button>
+                <a class="btn-mini" href="#" target="_blank" rel="noreferrer"><img src="assets/icons/github.svg" alt="" />GitHub</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" data-cat="mobile" data-aos="fade-up" data-aos-delay="50">
+            <img src="assets/images/proj-2.webp" alt="Fitness tracker" width="640" height="420" loading="lazy" />
+            <figcaption>
+              <h3>Fitness Tracker</h3>
+              <p>Track workouts and nutrition</p>
+              <div class="actions">
+                <a class="btn-mini" href="#" target="_blank" rel="noreferrer"><img src="assets/icons/external.svg" alt="" />Live</a>
+                <button class="btn-mini open-modal" data-project="Fitness Tracker">Details</button>
+                <a class="btn-mini" href="#" target="_blank" rel="noreferrer"><img src="assets/icons/github.svg" alt="" />GitHub</a>
+              </div>
+            </figcaption>
+          </figure>
+
+          <figure class="item" data-cat="ui" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/images/proj-3.webp" alt="AI Image Generator" width="640" height="420" loading="lazy" />
+            <figcaption>
+              <h3>AI Image Generator</h3>
+              <p>Generate images from text</p>
+              <div class="actions">
+                <a class="btn-mini" href="#" target="_blank" rel="noreferrer"><img src="assets/icons/external.svg" alt="" />Live</a>
+                <button class="btn-mini open-modal" data-project="AI Image Generator">Details</button>
+                <a class="btn-mini" href="#" target="_blank" rel="noreferrer"><img src="assets/icons/github.svg" alt="" />GitHub</a>
+              </div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section> --> -->
+
+    <!-- Experience Timeline -->
+    <section id="experience" class="section timeline">
+      <div class="container">
+        <h2 class="section-title">Work <span class="accent">Experience</span></h2>
+        <div class="tl">
+          <div class="tl-item" data-aos="slide-up">
+            <div class="tl-card">
+              <h3>Academic & Personal Projects</h3>
+              <span class="meta">mithanchal pvt :2026</span>
+              <p>Developed portfolio, hospital management, food delivery, calculator, and other web applications.</p>
+            </div>
+          </div>
+          <div class="tl-item" data-aos="slide-up" data-aos-delay="100">
+            <div class="tl-card">
+              <h3>Frontend Developer</h3>
+              <span class="meta">freelancing· Mar 2025 — Sep 2026</span>
+              <p>Shipped interactive dashboards with accessibility-first approach.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Timeline -->
+    <section id="education" class="section education">
+      <div class="container grid-2">
+        <div class="edu-media" data-aos="zoom-in">
+          <div class="rounded-frame">
+            <img src="edu-character.jpg" alt="Graduation photo" width="520" height="520" loading="lazy" />
+          </div>
+        </div>
+        <div class="edu-list" data-aos="fade-left">
+          <h2>Education<span class="accent">.</span></h2>
+
+          <article class="edu-card">
+            <div class="edu-head">
+              <h3>Bachelor of Computer Science    
+               and Information Technology</h3>
+              <span class="pill" style="display: flex;">2023-2027</span>
+            </div>
+            <p class="org">Rajarshi Janak University Janakpurdham</p>
+            <p class="desc">   Currently pursuing BSc CSIT with a focus on programming and web development.</p>
+            <span class="tag">Academic Excellence</span>
+          </article>
+
+          <article class="edu-card">
+            <div class="edu-head">
+              <h3> Higher Secondary Education</h3>
+              <span class="pill">2023 — 2026</span>
+            </div>
+            <p class="org">Rajarshi Janak Secondary school-Jnk </p>
+            <p class="desc"> Completed +2 with 85% marks and a strong academic foundation.</p>
+            <span class="tag">Academic Excellence</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+   
+  <!-- My Journey -->
+<section id="testimonials" class="section testimonials">
+  <div class="container">
+    <h2 class="section-title">My Learning <span class="accent">Journey</span></h2>
+
+    <div class="carousel" aria-roledescription="carousel">
+
+      <button class="car-btn prev" aria-label="Previous">‹</button>
+
+      <div class="car-track">
+
+        <!-- Slide 1 -->
+        <figure class="slide">
+          <img src="hero-character.jpg" alt="Shekhar Ray" width="56" height="56">
+
+          <blockquote>
+            Passionate BSc CSIT student focused on Frontend Development, Cloud Computing, and AI through practical projects.
+          </blockquote>
+
+          <figcaption>
+            <strong>Shekhar Ray</strong><br>
+            BSc CSIT Student
+          </figcaption>
+        </figure>
+
+        <!-- Slide 2 -->
+        <figure class="slide">
+          <img src="edu-character.jpg" alt="Learning" width="56" height="56">
+
+          <blockquote>
+            Learning Frontend Development with Apna College while building responsive websites and real-world applications.
+          </blockquote>
+
+          <figcaption>
+            <strong>Current Learning</strong><br>
+            Frontend Developer
+          </figcaption>
+        </figure>
+
+        <!-- Slide 3 -->
+        <figure class="slide">
+          <img src="hero-character.jpg" alt="Goal" width="56" height="56">
+
+          <blockquote>
+            My goal is to become a Full Stack Developer by continuously learning and building impactful software.
+          </blockquote>
+
+          <figcaption>
+            <strong>Career Goal</strong><br>
+            Future Software Engineer
+          </figcaption>
+        </figure>
+
+      </div>
+
+      <button class="car-btn next" aria-label="Next">›</button>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Certificates -->
+  
+<section id="certificates" class="section certificates">
+  <div class="container">
+    <h2 class="section-title">My Certifications<span class="accent">.</span></h2>
+
+    <div class="certs">
+<!-- Frontend Development -->
+<article class="cert-card" data-aos="fade-up" data-aos-delay="200">
+  <header>
+    <span class="issuer">Apna College</span>
+    <span class="date">2026</span>
+  </header>
+
+  <h3>Frontend Development</h3>
+
+  <p>
+     Learned HTML5, CSS3, JavaScript, responsive design, Flexbox, Grid, and API integration.
+
+  </p>
+
+  <a class="view" href="YOUR_CERTIFICATE_LINK" target="_blank">
+    View Certificate
+  </a>
+</article>
+      <!-- AWS S3 -->
+      <article class="cert-card" data-aos="fade-up" data-aos-delay="140">
+        <header>
+          <span class="issuer">Amazon Web Services (AWS)</span>
+          <span class="date">2026</span>
+        </header>
+        <h3>AWS S3 Storage Bucket</h3>
+        <p>
+        Learned S3 bucket creation, storage management, permissions, and static website hosting.
+ 
+        </p>
+        <a class="view" href="YOUR_CERTIFICATE_LINK" target="_blank">
+          View Certificate
+        </a>
+      </article>
+
+      <!-- Generative AI -->
+      <article class="cert-card" data-aos="fade-up">
+        <header>
+          <span class="issuer">Generative AI Program</span>
+          <span class="date">2026</span>
+        </header>
+        <h3>Generative AI</h3>
+        <p>
+           Learned Generative AI, prompt engineering, AI tools, and practical applications.
+        </p>
+        <a class="view" href="YOUR_CERTIFICATE_LINK" target="_blank">
+          View Certificate
+        </a>
+      </article>
+
+      <!-- NAST -->
+      <article class="cert-card" data-aos="fade-up" data-aos-delay="80">
+        <header>
+          <span class="issuer">NAST</span>
+          <span class="date">2026</span>
+        </header>
+        <h3>NAST Certification</h3>
+        <p>
+          Successfully completed technical training with hands-on learning and practical experience.
+
+        </p>
+        <a class="view" href="YOUR_CERTIFICATE_LINK" target="_blank">
+          View Certificate
+        </a>
+      </article>
+
+      <!-- Graphic Design -->
+      <article class="cert-card" data-aos="fade-up" data-aos-delay="140">
+        <header>
+          <span class="issuer">Graphic Design Program</span>
+          <span class="date">2026</span>
+        </header>
+        <h3>Graphic Design</h3>
+        <p>
+           Learned design principles, typography, branding, color theory, and visual design.
+        </p>
+        <a class="view" href="YOUR_CERTIFICATE_LINK" target="_blank">
+          View Certificate
+        </a>
+      </article>
+
+    </div>
+  </div>
+</section>
+    <!-- Contact -->
+    <section id="contact" class="section contact">
+      <div class="container grid-2">
+        <div class="contact-info" data-aos="fade-right">
+          <h2>Let's <span class="accent">Connect</span><span class="accent">.</span></h2>
+          <p>Have a project in mind? I’d love to help bring it to life.</p>
+
+          <ul class="contact-list">
+            <li><img src="gmail.png" alt="" width="18" height="18" /><span>ry.shekhar5854@gmail.com</span></li>
+            <li><img src="phone-call.png" alt="" width="18" height="18" /><span>+977 9827685854</span></li>
+            <li><img src="linkedin.png" alt="" width="18" height="18" /><span>linkedin.com/in/Shekhar-Rai</span></li>
+            <li><img src="home.png" alt="" width="18" height="18" /><span>Nepal ,janakpur-7</span></li>
+          </ul>
+
+          <div class="map" role="img" aria-label="Google Map placeholder">
+            <span>Map Placeholder</span>
+          </div>
+        </div>
+
+        <form id="contactForm" class="form" novalidate data-aos="fade-left">
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" placeholder="your@email.com" required />
+          </label>
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Your message..." required minlength="10"></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary ripple">Send Message</button>
+          <p class="form-note" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container foot">
+      <p>© <span id="year"></span>  Shekhar Rai. All Rights Reserved.</p>
+      <button id="backTop" class="backtop" aria-label="Back to top">↑</button>
+    </div>
+  </footer>
+
+  <!-- Project Modal -->
+  <dialog id="projectModal" class="modal">
+    <div class="modal-card">
+      <button class="modal-close" aria-label="Close">×</button>
+      <h3 id="modalTitle">Project</h3>
+      <p id="modalBody">Project details will appear here.</p>
+      <div class="modal-actions">
+        <button class="btn btn-outline modal-close">Close</button>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Toast -->
+  <div id="toast" role="status" aria-live="polite"></div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
